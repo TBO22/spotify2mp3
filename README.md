@@ -45,14 +45,14 @@ You also need to have `ffmpeg` installed:
 
 ## 🔐 Spotify API Credentials
 
-1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
-2. Create a new app and copy the **Client ID** and **Client Secret**
-3. Replace the placeholders in the script:
+1. Visit the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).
+2. Create a new app and copy the **Client ID** and **Client Secret**.
+3. Create a `.env` file in the root of your project:
 
-```python
-client_id = 'YOUR_SPOTIFY_CLIENT_ID'
-client_secret = 'YOUR_SPOTIFY_CLIENT_SECRET'
-```
+    ```env
+    SPOTIFY_CLIENT_ID=your_actual_client_id
+    SPOTIFY_CLIENT_SECRET=your_actual_client_secret
+    ```
 
 ---
 
