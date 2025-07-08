@@ -4,17 +4,17 @@ A lightweight Python tool that fetches any Spotify track, album, or playlist and
 
 ---
 
-## 🎯 Features
+## Features
 
-- ✅ Convert Spotify links (track, album, or playlist) to MP3  
-- 🔎 Smart YouTube audio search via track name and artist  
-- 💽 Organizes downloads by folder for albums or playlists  
-- 🧼 Automatically cleans file names to avoid OS conflicts  
-- 🔧 FFMPEG post-processing for high-quality audio  
+- Convert Spotify links (track, album, or playlist) to MP3  
+- Smart YouTube audio search via track name and artist  
+- Organizes downloads by folder for albums or playlists  
+- Automatically cleans file names to avoid OS conflicts  
+- FFMPEG post-processing for high-quality audio  
 
 ---
 
-## ⚙️ Requirements
+## ⚙Requirements
 
 - Python 3.7+
 - `ffmpeg` installed and added to your system path
@@ -25,7 +25,7 @@ A lightweight Python tool that fetches any Spotify track, album, or playlist and
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -43,7 +43,7 @@ You also need to have `ffmpeg` installed:
 
 ---
 
-## 🔐 Spotify API Credentials
+## Spotify API Credentials
 
 1. Visit the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).
 2. Create a new app and copy the **Client ID** and **Client Secret**.
@@ -56,7 +56,7 @@ You also need to have `ffmpeg` installed:
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Run the script and paste a Spotify track, album, or playlist URL when prompted:
 
@@ -74,7 +74,7 @@ Downloads will be saved in a folder named after the album or playlist.
 
 ---
 
-## 📁 Output Structure
+## Output Structure
 
 ```
 Spotify_Downloads/
